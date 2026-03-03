@@ -12,7 +12,7 @@ export default function Sidebar() {
   ];
 
   return (
-    <div className="hidden md:flex flex-col w-64 h-screen bg-[#111111] text-gray-300 border-r border-gray-800 px-6 py-8 relative">
+    <div className="hidden md:flex flex-col w-64 h-screen bg-white dark:bg-darkSurface border-r border-gray-200 dark:border-darkBorder px-6 py-8 relative">
 
       {/* LOGO */}
       <div className="flex items-center gap-3 mb-12">

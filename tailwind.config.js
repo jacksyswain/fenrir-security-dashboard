@@ -6,8 +6,10 @@ export default {
     extend: {
       colors: {
         primary: "#0CC8A8",
-        darkBg: "#0F0F0F",
-        darkSurface: "#1A1A1A",
+    darkBg: "#0F0F0F",
+    darkSurface: "#1A1A1A",
+    darkBorder: "#262626",
+    darkMuted: "#9CA3AF",
       },
     },
   },
