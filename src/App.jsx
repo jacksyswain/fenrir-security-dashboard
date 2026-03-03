@@ -1,16 +1,14 @@
-import { useState } from 'react'
+import { Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
+import ScanDetail from "./pages/ScanDetail";
 
-import './App.css'
-import Login from './pages/Login'
-function App() {
- 
-
+export default function App() {
   return (
-    <>
-      <Login />
-     
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/scan/:id" element={<ScanDetail />} />
+    </Routes>
+  );
 }
-
-export default App
